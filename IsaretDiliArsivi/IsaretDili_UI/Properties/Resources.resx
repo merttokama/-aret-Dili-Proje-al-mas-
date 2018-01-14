@@ -1,0 +1,1069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Abi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\abi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\abla.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\aile.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Akraba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\akraba.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\amca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\anne.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anneanne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\anneanne.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\baba.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Babaanne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\babaanne.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\damat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dayı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\dayı.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dede" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\dede.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\hala.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kardeş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\kardeş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kayınvalide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\kayınvalide.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Koca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\koca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kuzen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\kuzen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kız" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\kız.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\nine.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oğul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\oğul.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teyze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\teyze.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\torun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeğen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\yeğen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çocuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\çocuk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Üvey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\aile\üvey.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\a.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\b.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\c.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\d.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\e.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\g.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\h.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\i.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\j.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\k.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\l.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\m.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\n.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\o.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\p.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\r.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\s.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\t.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\u.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\v.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\y.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\z.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\ç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ö" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\ö.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ü" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\ü.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ğ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\ğ.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\İ.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfabe\ş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adele" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\adele.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agız" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\agız.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Akciğer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\akciğer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alın" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\alın.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avuç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\avuç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ayak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\ayak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bacak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\bacak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bağirsak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\bağirsak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\baş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\bel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beyin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\beyin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bilek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\bilek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\boyun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boğaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\boğaz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Burun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\burun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Böbrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\böbrek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dalak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\dalak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\damak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\damar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\deri.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\dil.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dirsek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\dirsek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\diz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\diş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dudak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\dudak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\el.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\ense.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Göbek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\göbek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gövde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\gövde.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Göz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\göz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Göğüs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\göğüs.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gırtlak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\gırtlak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kafa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kalp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kalp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karaciğer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\karaciğer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karın" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\karın.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kaş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kemik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kemik.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kirpik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kirpik.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kol.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kulak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\kulak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\meme.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\mide.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Omuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\omuz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Parmak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\parmak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\saç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sırt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\sırt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\ter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tırnak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\tırnak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vücut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\vücut.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yanak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\yanak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yürek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\yürek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yüz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\yüz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\zar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\çene.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İskelet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\anatomi\İskelet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bağlaç\ama.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Balta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\balta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Balyoz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\balyoz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baskul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\baskul.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bicak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\bicak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cetvel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\cetvel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\damga.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eğe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\eğe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Faks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\faks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fiş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\fiş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fırça" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\fırça.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hortum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\hortum.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\jant.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jeneratör" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\jeneratör.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kablo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kablo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kalem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kalem.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kalemtıraş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kalemtıraş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kamera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kamera.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kanca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kantar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kantar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kapı_Kilidi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kapı kilidi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kazma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kazma.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kağıt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kağıt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaşık" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kaşık.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kepçe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kepçe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\keser.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kibrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kibrit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kilit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kilit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kontör" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kontör.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kova.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kriko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kriko.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kürdan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kürdan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kürek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kürek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kılıç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\kılıç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lastik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\lastik.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Makara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\makara.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Makas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\makas.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mala.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mandal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mandal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matbaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\matbaa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Materyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\materyal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matkap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\matkap.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maşa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\maşa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mengene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mengene.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merdiven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\merdiven.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mikroskop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mikroskop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Motor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\motor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mum.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Musluk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\musluk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mühür" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\mühür.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\ok.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oklava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\oklava.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Olta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\olta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\orak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paspas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\paspas.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\pense.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pergel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\pergel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\pil.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pompa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\pompa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Priz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\priz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pusula" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\pusula.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raptiye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\raptiye.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rende" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\rende.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Satir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\satir.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\silah.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silecek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\silecek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silgi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\silgi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\sopa.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sünger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\sünger.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Süpürge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\süpürge.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Süzgeç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\süzgeç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tabanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tabanca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tava.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tebeşir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tebeşir.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tekerlek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tekerlek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\telefon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Terazi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\terazi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Testere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\testere.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\torna.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tornavida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tornavida.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Traktör" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\traktör.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutkal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tutkal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tüfek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tüfek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tükenmez_Kalem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tükenmez kalem.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tır" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tır.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tırpan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\tırpan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\vana.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bağlaç\ve.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Veya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bağlaç\veya.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\vida.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vinç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\vinç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zamk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\zamk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çakı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\çakı.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çatal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\çatal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çekiç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\çekiç.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çengel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\çengel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çivi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\çivi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ütü" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\ütü.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bağlaç\İle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şiş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\araç ve gereç\şiş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aferin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\aferin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Altın" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\altın.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\amin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\avea.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\ay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bakır" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\bakır.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\bana.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bateri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\bateri.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Benim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\benim.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Benzin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\benzin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bilgisayar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\bilgisayar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\biz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bizim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\bizim.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\bu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bulut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\bulut.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\cd.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darbuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\darbuka.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Davul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\davul.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Defetmek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\defetmek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\demir.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dünya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\dünya.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elveda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\elveda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\evet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\evren.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Faks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\faks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fotokopi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\fotokopi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Füze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\füze.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\gaz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\gibi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gitar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\gitar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gökkuşağı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\gökkuşağı.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gökyüzü" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\gökyüzü.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gümüş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\gümüş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Günaydın" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\günaydın.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Güneş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\güneş.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hayır" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\hayır.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\hepsi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Herkes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\herkes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kainat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\kainat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\kar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\kaval.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\keman.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kemençe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\kemençe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kendi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\kendi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keske" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\keske.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\kim.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kokain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\kokain.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kömür" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\kömür.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laboratuvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\laboratuvar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\laptop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manyak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\manyak.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Margarin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\margarin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mazot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\mazot.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maşallah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\maşallah.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merhaba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\merhaba.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mesela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\mesela.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monitör" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\monitör.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Motorin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\motorin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Müzik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\müzik.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\ne.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\oh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oh_Olsun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\oh_olsun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\onlar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onların" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\onların.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\onun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Kişi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\o-kişi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\peki.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Radar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\radar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Radyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\radyo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\roket.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sabun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\sabun.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sakın" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\sakın.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\sana.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\saz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\sel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\senin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\ses.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sinek_İlacı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\sinek_İlacı.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\sis.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\siz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sizin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\sizin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tamam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\tamam.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telefon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\telefon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Televizyon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\televizyon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telsiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\telsiz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teslim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\teslim.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tiner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\tiner.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turkcell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\turkcell.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\tuz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uzay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\uzay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vodafone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\vodafone.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yazık" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\yazık.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yağmur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\yağmur.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\yeter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Youtube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\youtube.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yıldız" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gök bilimi\yıldız.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zurna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\zurna.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Çinko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\kimya\çinko.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İnternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\İnternet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İnşallah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\ünlem\İnşallah.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="İçin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\edat\İçin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şarj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\teknoloji\şarj.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şarkı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\müzik\şarkı.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şimşek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\meteoroloji\şimşek.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\zamir\şu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31389EE4-465B-486B-B431-62C2F9EC7007}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IsaretDili_UI</RootNamespace>
+    <AssemblyName>IsaretDili_UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmArsiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmArsiv.Designer.cs">
+      <DependentUpon>FrmArsiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmArsiv.resx">
+      <DependentUpon>FrmArsiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{f852868d-042e-4dc7-ba96-2b126e30ff7b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{30bf6922-c41c-4777-94c1-4e87b08ced96}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Aile\Abi.gif" />
+    <Content Include="Resources\Aile\Abla.gif" />
+    <Content Include="Resources\Aile\Aile.gif" />
+    <Content Include="Resources\Aile\Akraba.gif" />
+    <Content Include="Resources\Aile\Amca.gif" />
+    <Content Include="Resources\Aile\Anne.gif" />
+    <Content Include="Resources\Aile\Anneanne.gif" />
+    <Content Include="Resources\Aile\Baba.gif" />
+    <Content Include="Resources\Aile\Babaanne.gif" />
+    <Content Include="Resources\Aile\Damat.gif" />
+    <Content Include="Resources\Aile\Dayı.gif" />
+    <Content Include="Resources\Aile\Dede.gif" />
+    <Content Include="Resources\Aile\Hala.gif" />
+    <Content Include="Resources\Aile\Kardeş.gif" />
+    <Content Include="Resources\Aile\Kayınvalide.gif" />
+    <Content Include="Resources\Aile\Koca.gif" />
+    <Content Include="Resources\Aile\Kuzen.gif" />
+    <Content Include="Resources\Aile\Kız.gif" />
+    <Content Include="Resources\Aile\Nine.gif" />
+    <Content Include="Resources\Aile\Oğul.gif" />
+    <Content Include="Resources\Aile\Teyze.gif" />
+    <Content Include="Resources\Aile\Torun.gif" />
+    <Content Include="Resources\Aile\Yeğen.gif" />
+    <Content Include="Resources\Aile\Çocuk.gif" />
+    <Content Include="Resources\Aile\Üvey.gif" />
+    <Content Include="Resources\Alfabe\A.gif" />
+    <Content Include="Resources\Alfabe\B.gif" />
+    <Content Include="Resources\Alfabe\C.gif" />
+    <Content Include="Resources\Alfabe\D.gif" />
+    <Content Include="Resources\Alfabe\E.gif" />
+    <Content Include="Resources\Alfabe\F.gif" />
+    <Content Include="Resources\Alfabe\G.gif" />
+    <Content Include="Resources\Alfabe\H.gif" />
+    <Content Include="Resources\Alfabe\I.gif" />
+    <Content Include="Resources\Alfabe\J.gif" />
+    <Content Include="Resources\Alfabe\K.gif" />
+    <Content Include="Resources\Alfabe\L.gif" />
+    <Content Include="Resources\Alfabe\M.gif" />
+    <Content Include="Resources\Alfabe\N.gif" />
+    <Content Include="Resources\Alfabe\O.gif" />
+    <Content Include="Resources\Alfabe\P.gif" />
+    <Content Include="Resources\Alfabe\R.gif" />
+    <Content Include="Resources\Alfabe\S.gif" />
+    <Content Include="Resources\Alfabe\T.gif" />
+    <Content Include="Resources\Alfabe\U.gif" />
+    <Content Include="Resources\Alfabe\V.gif" />
+    <Content Include="Resources\Alfabe\Y.gif" />
+    <Content Include="Resources\Alfabe\Z.gif" />
+    <Content Include="Resources\Alfabe\Ç.gif" />
+    <Content Include="Resources\Alfabe\Ö.gif" />
+    <Content Include="Resources\Alfabe\Ü.gif" />
+    <Content Include="Resources\Alfabe\Ğ.gif" />
+    <Content Include="Resources\Alfabe\İ.gif" />
+    <Content Include="Resources\Alfabe\Ş.gif" />
+    <Content Include="Resources\Anatomi\Adele.gif" />
+    <Content Include="Resources\Anatomi\Agız.gif" />
+    <Content Include="Resources\Anatomi\Akciğer.gif" />
+    <Content Include="Resources\Anatomi\Alın.gif" />
+    <Content Include="Resources\Anatomi\Avuç.gif" />
+    <Content Include="Resources\Anatomi\Ayak.gif" />
+    <Content Include="Resources\Anatomi\Bacak.gif" />
+    <Content Include="Resources\Anatomi\Bağirsak.gif" />
+    <Content Include="Resources\Anatomi\Baş.gif" />
+    <Content Include="Resources\Anatomi\Bel.gif" />
+    <Content Include="Resources\Anatomi\Beyin.gif" />
+    <Content Include="Resources\Anatomi\Bilek.gif" />
+    <Content Include="Resources\Anatomi\Boyun.gif" />
+    <Content Include="Resources\Anatomi\Boğaz.gif" />
+    <Content Include="Resources\Anatomi\Burun.gif" />
+    <Content Include="Resources\Anatomi\Böbrek.gif" />
+    <Content Include="Resources\Anatomi\Dalak.gif" />
+    <Content Include="Resources\Anatomi\Damak.gif" />
+    <Content Include="Resources\Anatomi\Damar.gif" />
+    <Content Include="Resources\Anatomi\Deri.gif" />
+    <Content Include="Resources\Anatomi\Dil.gif" />
+    <Content Include="Resources\Anatomi\Dirsek.gif" />
+    <Content Include="Resources\Anatomi\Diz.gif" />
+    <Content Include="Resources\Anatomi\Diş.gif" />
+    <Content Include="Resources\Anatomi\Dudak.gif" />
+    <Content Include="Resources\Anatomi\El.gif" />
+    <Content Include="Resources\Anatomi\Ense.gif" />
+    <Content Include="Resources\Anatomi\Göbek.gif" />
+    <Content Include="Resources\Anatomi\Gövde.gif" />
+    <Content Include="Resources\Anatomi\Göz.gif" />
+    <Content Include="Resources\Anatomi\Göğüs.gif" />
+    <Content Include="Resources\Anatomi\Gırtlak.gif" />
+    <Content Include="Resources\Anatomi\Kafa.gif" />
+    <Content Include="Resources\Anatomi\Kalp.gif" />
+    <Content Include="Resources\Anatomi\Karaciğer.gif" />
+    <Content Include="Resources\Anatomi\Karın.gif" />
+    <Content Include="Resources\Anatomi\Kaş.gif" />
+    <Content Include="Resources\Anatomi\Kemik.gif" />
+    <Content Include="Resources\Anatomi\Kirpik.gif" />
+    <Content Include="Resources\Anatomi\Kol.gif" />
+    <Content Include="Resources\Anatomi\Kulak.gif" />
+    <Content Include="Resources\Anatomi\Meme.gif" />
+    <Content Include="Resources\Anatomi\Mide.gif" />
+    <Content Include="Resources\Anatomi\Omuz.gif" />
+    <Content Include="Resources\Anatomi\Parmak.gif" />
+    <Content Include="Resources\Anatomi\Saç.gif" />
+    <Content Include="Resources\Anatomi\Sırt.gif" />
+    <Content Include="Resources\Anatomi\Ter.gif" />
+    <Content Include="Resources\Anatomi\Tırnak.gif" />
+    <Content Include="Resources\Anatomi\Vücut.gif" />
+    <Content Include="Resources\Anatomi\Yanak.gif" />
+    <Content Include="Resources\Anatomi\Yürek.gif" />
+    <Content Include="Resources\Anatomi\Yüz.gif" />
+    <Content Include="Resources\Anatomi\Zar.gif" />
+    <Content Include="Resources\Anatomi\Çene.gif" />
+    <Content Include="Resources\Anatomi\İskelet.gif" />
+    <Content Include="Resources\Araç ve Gereç\Balta.gif" />
+    <Content Include="Resources\Araç ve Gereç\Balyoz.gif" />
+    <Content Include="Resources\Araç ve Gereç\Baskul.gif" />
+    <Content Include="Resources\Araç ve Gereç\Bicak.gif" />
+    <Content Include="Resources\Araç ve Gereç\Cetvel.gif" />
+    <Content Include="Resources\Araç ve Gereç\Damga.gif" />
+    <Content Include="Resources\Araç ve Gereç\Eğe.gif" />
+    <Content Include="Resources\Araç ve Gereç\Faks.gif" />
+    <Content Include="Resources\Araç ve Gereç\Fiş.gif" />
+    <Content Include="Resources\Araç ve Gereç\Fırça.gif" />
+    <Content Include="Resources\Araç ve Gereç\Hortum.gif" />
+    <Content Include="Resources\Araç ve Gereç\Jant.gif" />
+    <Content Include="Resources\Araç ve Gereç\Jeneratör.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kablo.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kalem.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kalemtıraş.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kamera.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kanca.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kantar.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kapı Kilidi.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kazma.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kağıt.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kaşık.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kepçe.gif" />
+    <Content Include="Resources\Araç ve Gereç\Keser.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kibrit.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kilit.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kontör.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kova.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kriko.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kürdan.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kürek.gif" />
+    <Content Include="Resources\Araç ve Gereç\Kılıç.gif" />
+    <Content Include="Resources\Araç ve Gereç\Lastik.gif" />
+    <Content Include="Resources\Araç ve Gereç\Makara.gif" />
+    <Content Include="Resources\Araç ve Gereç\Makas.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mala.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mandal.gif" />
+    <Content Include="Resources\Araç ve Gereç\Matbaa.gif" />
+    <Content Include="Resources\Araç ve Gereç\Materyal.gif" />
+    <Content Include="Resources\Araç ve Gereç\Matkap.gif" />
+    <Content Include="Resources\Araç ve Gereç\Maşa.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mengene.gif" />
+    <Content Include="Resources\Araç ve Gereç\Merdiven.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mikroskop.gif" />
+    <Content Include="Resources\Araç ve Gereç\Motor.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mum.gif" />
+    <Content Include="Resources\Araç ve Gereç\Musluk.gif" />
+    <Content Include="Resources\Araç ve Gereç\Mühür.gif" />
+    <Content Include="Resources\Araç ve Gereç\Ok.gif" />
+    <Content Include="Resources\Araç ve Gereç\Oklava.gif" />
+    <Content Include="Resources\Araç ve Gereç\Olta.gif" />
+    <Content Include="Resources\Araç ve Gereç\Orak.gif" />
+    <Content Include="Resources\Araç ve Gereç\Paspas.gif" />
+    <Content Include="Resources\Araç ve Gereç\Pense.gif" />
+    <Content Include="Resources\Araç ve Gereç\Pergel.gif" />
+    <Content Include="Resources\Araç ve Gereç\Pil.gif" />
+    <Content Include="Resources\Araç ve Gereç\Pompa.gif" />
+    <Content Include="Resources\Araç ve Gereç\Priz.gif" />
+    <Content Include="Resources\Araç ve Gereç\Pusula.gif" />
+    <Content Include="Resources\Araç ve Gereç\Raptiye.gif" />
+    <Content Include="Resources\Araç ve Gereç\Rende.gif" />
+    <Content Include="Resources\Araç ve Gereç\Satir.gif" />
+    <Content Include="Resources\Araç ve Gereç\Silah.gif" />
+    <Content Include="Resources\Araç ve Gereç\Silecek.gif" />
+    <Content Include="Resources\Araç ve Gereç\Silgi.gif" />
+    <Content Include="Resources\Araç ve Gereç\Sopa.gif" />
+    <Content Include="Resources\Araç ve Gereç\Sünger.gif" />
+    <Content Include="Resources\Araç ve Gereç\Süpürge.gif" />
+    <Content Include="Resources\Araç ve Gereç\Süzgeç.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tabanca.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tava.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tebeşir.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tekerlek.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tel.gif" />
+    <Content Include="Resources\Araç ve Gereç\Telefon.gif" />
+    <Content Include="Resources\Araç ve Gereç\Terazi.gif" />
+    <Content Include="Resources\Araç ve Gereç\Testere.gif" />
+    <Content Include="Resources\Araç ve Gereç\Torna.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tornavida.gif" />
+    <Content Include="Resources\Araç ve Gereç\Traktör.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tutkal.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tüfek.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tükenmez Kalem.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tır.gif" />
+    <Content Include="Resources\Araç ve Gereç\Tırpan.gif" />
+    <Content Include="Resources\Araç ve Gereç\Vana.gif" />
+    <Content Include="Resources\Araç ve Gereç\Vida.gif" />
+    <Content Include="Resources\Araç ve Gereç\Vinç.gif" />
+    <Content Include="Resources\Araç ve Gereç\Zamk.gif" />
+    <Content Include="Resources\Araç ve Gereç\Çakı.gif" />
+    <Content Include="Resources\Araç ve Gereç\Çatal.gif" />
+    <Content Include="Resources\Araç ve Gereç\Çekiç.gif" />
+    <Content Include="Resources\Araç ve Gereç\Çengel.gif" />
+    <Content Include="Resources\Araç ve Gereç\Çivi.gif" />
+    <Content Include="Resources\Araç ve Gereç\Ütü.gif" />
+    <Content Include="Resources\Araç ve Gereç\Şiş.gif" />
+    <Content Include="Resources\Bağlaç\Ama.gif" />
+    <Content Include="Resources\Bağlaç\Ve.gif" />
+    <Content Include="Resources\Bağlaç\Veya.gif" />
+    <Content Include="Resources\Bağlaç\İle.gif" />
+    <Content Include="Resources\Edat\Evet.gif" />
+    <Content Include="Resources\Edat\Gibi.gif" />
+    <Content Include="Resources\Edat\Hayır.gif" />
+    <Content Include="Resources\Edat\Mesela.gif" />
+    <Content Include="Resources\Edat\Peki.gif" />
+    <Content Include="Resources\Edat\Tamam.gif" />
+    <Content Include="Resources\Edat\İçin.gif" />
+    <Content Include="Resources\Gök Bilimi\Ay.gif" />
+    <Content Include="Resources\Gök Bilimi\Dünya.gif" />
+    <Content Include="Resources\Gök Bilimi\Evren.gif" />
+    <Content Include="Resources\Gök Bilimi\Gökyüzü.gif" />
+    <Content Include="Resources\Gök Bilimi\Güneş.gif" />
+    <Content Include="Resources\Gök Bilimi\Kainat.gif" />
+    <Content Include="Resources\Gök Bilimi\Uzay.gif" />
+    <Content Include="Resources\Gök Bilimi\Yıldız.gif" />
+    <Content Include="Resources\Kimya\Altın.gif" />
+    <Content Include="Resources\Kimya\Bakır.gif" />
+    <Content Include="Resources\Kimya\Benzin.gif" />
+    <Content Include="Resources\Kimya\Demir.gif" />
+    <Content Include="Resources\Kimya\Gaz.gif" />
+    <Content Include="Resources\Kimya\Gümüş.gif" />
+    <Content Include="Resources\Kimya\Kokain.gif" />
+    <Content Include="Resources\Kimya\Kömür.gif" />
+    <Content Include="Resources\Kimya\Laboratuvar.gif" />
+    <Content Include="Resources\Kimya\Margarin.gif" />
+    <Content Include="Resources\Kimya\Mazot.gif" />
+    <Content Include="Resources\Kimya\Motorin.gif" />
+    <Content Include="Resources\Kimya\Sabun.gif" />
+    <Content Include="Resources\Kimya\Sinek_İlacı.gif" />
+    <Content Include="Resources\Kimya\Tiner.gif" />
+    <Content Include="Resources\Kimya\Tuz.gif" />
+    <Content Include="Resources\Kimya\Çinko.gif" />
+    <Content Include="Resources\merhaba.gif" />
+    <Content Include="Resources\Meteoroloji\Bulut.gif" />
+    <Content Include="Resources\Meteoroloji\Gökkuşağı.gif" />
+    <Content Include="Resources\Meteoroloji\Kar.gif" />
+    <Content Include="Resources\Meteoroloji\Sel.gif" />
+    <Content Include="Resources\Meteoroloji\Sis.gif" />
+    <Content Include="Resources\Meteoroloji\Yağmur.gif" />
+    <Content Include="Resources\Meteoroloji\Şimşek.gif" />
+    <Content Include="Resources\Müzik\Bateri.gif" />
+    <Content Include="Resources\Müzik\Darbuka.gif" />
+    <Content Include="Resources\Müzik\Davul.gif" />
+    <Content Include="Resources\Müzik\Gitar.gif" />
+    <Content Include="Resources\Müzik\Kaval.gif" />
+    <Content Include="Resources\Müzik\Keman.gif" />
+    <Content Include="Resources\Müzik\Kemençe.gif" />
+    <Content Include="Resources\Müzik\Müzik.gif" />
+    <Content Include="Resources\Müzik\Saz.gif" />
+    <Content Include="Resources\Müzik\Ses.gif" />
+    <Content Include="Resources\Müzik\Zurna.gif" />
+    <Content Include="Resources\Müzik\Şarkı.gif" />
+    <Content Include="Resources\Teknoloji\Avea.gif" />
+    <Content Include="Resources\Teknoloji\Bilgisayar.gif" />
+    <Content Include="Resources\Teknoloji\CD.gif" />
+    <Content Include="Resources\Teknoloji\Faks.gif" />
+    <Content Include="Resources\Teknoloji\Fotokopi.gif" />
+    <Content Include="Resources\Teknoloji\Füze.gif" />
+    <Content Include="Resources\Teknoloji\Laptop.gif" />
+    <Content Include="Resources\Teknoloji\Monitör.gif" />
+    <Content Include="Resources\Teknoloji\Radar.gif" />
+    <Content Include="Resources\Teknoloji\Radyo.gif" />
+    <Content Include="Resources\Teknoloji\Roket.gif" />
+    <Content Include="Resources\Teknoloji\Telefon.gif" />
+    <Content Include="Resources\Teknoloji\Televizyon.gif" />
+    <Content Include="Resources\Teknoloji\Telsiz.gif" />
+    <Content Include="Resources\Teknoloji\Turkcell.gif" />
+    <Content Include="Resources\Teknoloji\Vodafone.gif" />
+    <Content Include="Resources\Teknoloji\Youtube.gif" />
+    <Content Include="Resources\Teknoloji\İnternet.gif" />
+    <Content Include="Resources\Teknoloji\Şarj.gif" />
+    <Content Include="Resources\Zamir\Bana.gif" />
+    <Content Include="Resources\Zamir\Benim.gif" />
+    <Content Include="Resources\Zamir\Biz.gif" />
+    <Content Include="Resources\Zamir\Bizim.gif" />
+    <Content Include="Resources\Zamir\Bu.gif" />
+    <Content Include="Resources\Zamir\Hepsi.gif" />
+    <Content Include="Resources\Zamir\Herkes.gif" />
+    <Content Include="Resources\Zamir\Kendi.gif" />
+    <Content Include="Resources\Zamir\Kim.gif" />
+    <Content Include="Resources\Zamir\Ne.gif" />
+    <Content Include="Resources\Zamir\O-Kişi.gif" />
+    <Content Include="Resources\Zamir\Onlar.gif" />
+    <Content Include="Resources\Zamir\Onların.gif" />
+    <Content Include="Resources\Zamir\Onun.gif" />
+    <Content Include="Resources\Zamir\Sana.gif" />
+    <Content Include="Resources\Zamir\Senin.gif" />
+    <Content Include="Resources\Zamir\Siz.gif" />
+    <Content Include="Resources\Zamir\Sizin.gif" />
+    <Content Include="Resources\Zamir\Şu.gif" />
+    <Content Include="Resources\Ünlem\Aferin.gif" />
+    <Content Include="Resources\Ünlem\Amin.gif" />
+    <Content Include="Resources\Ünlem\Defetmek.gif" />
+    <Content Include="Resources\Ünlem\Elveda.gif" />
+    <Content Include="Resources\Ünlem\Günaydın.gif" />
+    <Content Include="Resources\Ünlem\Keske.gif" />
+    <Content Include="Resources\Ünlem\Manyak.gif" />
+    <Content Include="Resources\Ünlem\Maşallah.gif" />
+    <Content Include="Resources\Ünlem\Merhaba.gif" />
+    <Content Include="Resources\Ünlem\Oh.gif" />
+    <Content Include="Resources\Ünlem\Oh_Olsun.gif" />
+    <Content Include="Resources\Ünlem\Sakın.gif" />
+    <Content Include="Resources\Ünlem\Teslim.gif" />
+    <Content Include="Resources\Ünlem\Yazık.gif" />
+    <Content Include="Resources\Ünlem\Yeter.gif" />
+    <Content Include="Resources\Ünlem\İnşallah.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

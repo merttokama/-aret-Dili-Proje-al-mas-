@@ -1,0 +1,13 @@
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\Entity.dll.config
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\Entity.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\Entity.pdb
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\EntityFramework.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\EntityFramework.xml
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.pdb
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.Properties.Resources.resources
+C:\Users\mertt\Desktop\IsaretDiliArsivi\Entity\obj\Debug\Entity.csproj.GenerateResource.Cache

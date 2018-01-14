@@ -1,0 +1,17 @@
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\DAL.dll.config
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\DAL.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\DAL.pdb
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\Entity.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\EntityFramework.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\Entity.pdb
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\Entity.dll.config
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\EntityFramework.xml
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.dll
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.pdb
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.Migrations.a1.resources
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\mertt\Desktop\IsaretDiliArsivi\DAL\obj\Debug\DAL.Migrations.a2.resources
