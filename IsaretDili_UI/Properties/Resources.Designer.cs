@@ -1333,16 +1333,6 @@ namespace IsaretDili_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Kainat {
-            get {
-                object obj = ResourceManager.GetObject("Kainat", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Kalem {
             get {
                 object obj = ResourceManager.GetObject("Kalem", resourceCulture);
